@@ -1,0 +1,1255 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=windows-1251">
+	<TITLE></TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.4.1  (Win32)">
+	<META NAME="CREATED" CONTENT="20190613;22434420">
+	<META NAME="CHANGED" CONTENT="20190614;165654">
+	<STYLE TYPE="text/css">
+	<!--
+		@page { size: 21cm 29.7cm; margin: 2cm }
+		P { margin-bottom: 0.21cm }
+		A:link { color: #000080; so-language: zxx; text-decoration: underline }
+		A:visited { color: #800000; so-language: zxx; text-decoration: underline }
+	-->
+	</STYLE>
+</HEAD>
+<BODY LANG="ru-RU" LINK="#000080" VLINK="#800000" DIR="LTR">
+<P STYLE="margin-bottom: 0cm">* {</P>
+<P STYLE="margin-bottom: 0cm">  margin: 0; 
+</P>
+<P STYLE="margin-bottom: 0cm">  padding: 0;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@font-face {</P>
+<P STYLE="margin-bottom: 0cm">  src:
+url(https://github.com/ksenia171/fonts/blob/master/OpenSans-Regular.woff);</P>
+<P STYLE="margin-bottom: 0cm">  font-family: OpenSans;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: 400;</P>
+<P STYLE="margin-bottom: 0cm">  font-style: normal;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@font-face {</P>
+<P STYLE="margin-bottom: 0cm">  src:
+url(https://github.com/ksenia171/fonts/blob/master/OpenSans-Bold.woff);</P>
+<P STYLE="margin-bottom: 0cm">  font-family: OpenSans;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: 600;</P>
+<P STYLE="margin-bottom: 0cm">  font-style: normal;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">body { 
+</P>
+<P STYLE="margin-bottom: 0cm">  font-family: OpenSans, arial,
+sans-serif;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.site-header {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #1f2245;</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">  flex-wrap: wrap;</P>
+<P STYLE="margin-bottom: 0cm">  text-transform: uppercase;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.header-title-group-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">  margin-bottom: 90px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.header-title-group {</P>
+<P STYLE="margin-bottom: 0cm">  color: #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.button-group {</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.button-download {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #5e42b0;</P>
+<P STYLE="margin-bottom: 0cm">  border: none;</P>
+<P STYLE="margin-bottom: 0cm">  border-radius: 90px;</P>
+<P STYLE="margin-bottom: 0cm">  text-transform: uppercase; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.botton-link {</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  justify-content:  center;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">  text-decoration: none;</P>
+<P STYLE="margin-bottom: 0cm">  color: #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.botton-link-text-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: stretch;</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.botton-link-text-first {</P>
+<P STYLE="margin-bottom: 0cm">  text-align: left;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.botton-link-text-second {</P>
+<P STYLE="margin-bottom: 0cm">  text-align: left;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.card-article-athlets,
+.card-article-players {</P>
+<P STYLE="margin-bottom: 0cm">  position: relative;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.title-article-athlets,
+.title-article-players {</P>
+<P STYLE="margin-bottom: 0cm">  color: #e7e7e7;</P>
+<P STYLE="margin-bottom: 0cm">  text-transform: uppercase;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-img-conteiner-footballer,
+.article-img-conteiner-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">  position: absolute;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-connection,
+.article-content-part-collaboration, .article-content-part-growth {</P>
+<P STYLE="margin-bottom: 0cm">  width: 100vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-connection {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #fafafa;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-collaboration {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #f5f4f9;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-growth {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #090c35;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-title-group,
+.article-title-group-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-number {</P>
+<P STYLE="margin-bottom: 0cm">  color: #000000;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">  border-bottom: 4px solid #5e42b0;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-number-growth {</P>
+<P STYLE="margin-bottom: 0cm">  border-bottom: 4px solid #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">  color: #8765dd;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-title {</P>
+<P STYLE="margin-bottom: 0cm">  padding-left: 10px;</P>
+<P STYLE="margin-bottom: 0cm">  color: #c1c1c1;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-text,
+.article-content-part-text-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">  color: #000000;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.article-content-part-text-growth,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">  color: #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-img-conteiner,
+.section-card-img-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">  position: relative;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-numder-conteiner,
+.section-card-numder-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">  position: absolute;</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">  align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #5e42b0;  
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-numder,
+.section-card-numder-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">  color: #f5f6f7;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">  border-bottom: 4px solid #8f7bc8;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-title-and-text-conteiner,
+.section-card-title-and-text-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #ffffff;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-title,
+.section-card-title-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">  color: #e7e7e7;</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-card-text,
+.section-card-text-2 {</P>
+<P STYLE="margin-bottom: 0cm">  color: #000000;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.site-footer-container {</P>
+<P STYLE="margin-bottom: 0cm">  min-height: 565px;</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">  flex-wrap: wrap;</P>
+<P STYLE="margin-bottom: 0cm">  text-transform: uppercase;</P>
+<P STYLE="margin-bottom: 0cm">  padding-bottom: 10px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.footer-logo-title-container {</P>
+<P STYLE="margin-bottom: 0cm">  display: flex;</P>
+<P STYLE="margin-bottom: 0cm">  aling-items:  center;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.short-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">  margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">  margin: 100px auto 60px; 
+</P>
+<P STYLE="margin-bottom: 0cm">  background: linear-gradient(to top,
+#51379a, #7554d5);</P>
+<P STYLE="margin-bottom: 0cm">  border-radius: 25px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.footer-title-top {</P>
+<P STYLE="margin-bottom: 0cm">  font-weight: bold;</P>
+<P STYLE="margin-bottom: 0cm">  color: #ffffff; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@media (max-width: 319px) {</P>
+<P STYLE="margin-bottom: 0cm">  body {</P>
+<P STYLE="margin-bottom: 0cm">    min-width: 0px;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-header {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 39px; 
+</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    width:  134px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 36px;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 135px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 90px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 28px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 30px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-title-bottom {  
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 14.1vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 90px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-group {</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">    align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">    flex-wrap: wrap;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 84px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download {</P>
+<P STYLE="margin-bottom: 0cm">    width: 87.5vw;</P>
+<P STYLE="margin-bottom: 0cm">    height: 35px;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download:first-child {</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 14px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 8px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .download-icon {</P>
+<P STYLE="margin-bottom: 0cm">    width: 20px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 25px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link-text-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: 5px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-athlets,
+.title-article-players  {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 50px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 25px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 6.25vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 245px;</P>
+<P STYLE="margin-bottom: 0cm">    ppadding-right: 6.25vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .card-article-athlets,
+.card-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    position: relative;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-img-conteiner-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    left: 21.87vw;</P>
+<P STYLE="margin-bottom: 0cm">    top: 80px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .image-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 55.31vw;</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">   .article-img-conteiner-basketballer
+{</P>
+<P STYLE="margin-bottom: 0cm">    left: 3.75vw;</P>
+<P STYLE="margin-bottom: 0cm">    top: 80px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .image-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 94vw;</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-content-part-text, .article-content-part-text-growth,
+.article-title-group-basketballer,
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-title-group-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 83px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 25px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-number,
+.article-content-part-number-growth {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 14px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">   
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-title {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 23px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-text,
+.article-content-part-text-growth,
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 55px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 15px;</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-image,
+.section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">    width: 100vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder-conteiner,
+.section-card-numder-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    bottom: -12px;</P>
+<P STYLE="margin-bottom: 0cm">    left: 20px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    width:  70px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 70px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder,
+.section-card-numder-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 14px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-title,
+.section-card-title-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 28px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 16%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 25px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-text,
+.section-card-text-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 16px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 6.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 6.2vw; 
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 67px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-footer-container {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #0c1833;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-logo-title-container {</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    flex-wrap: wrap;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .short-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">  width:  74px;</P>
+<P STYLE="margin-bottom: 0cm">  height: 74px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .short-logo {</P>
+<P STYLE="margin-bottom: 0cm">  padding: 12px 8px;</P>
+<P STYLE="margin-bottom: 0cm">  width:  57px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-group {</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 76px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 20px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-top {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 32px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-bottom {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 14px;</P>
+<P STYLE="margin-bottom: 0cm">    color: #9b8ec1;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">  margin-bottom: 10px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@media (min-width: 320px) and
+(max-width: 767px), (orientation: landscape)  {</P>
+<P STYLE="margin-bottom: 0cm">  body {</P>
+<P STYLE="margin-bottom: 0cm">    min-width: 320px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-header {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 33px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    width:  205px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 59px;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 135px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 222px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 64px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 32px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 11.7vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 11.7vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-title-bottom {  
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 25.5vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-group {</P>
+<P STYLE="margin-bottom: 0cm">    justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">    align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 84px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download {</P>
+<P STYLE="margin-bottom: 0cm">    width: 310px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 77px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download:first-child {</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: 53px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 14px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .download-icon {</P>
+<P STYLE="margin-bottom: 0cm">    width: 41px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 48px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link-text-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-athlets,
+.title-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 86px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 62px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 38vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 80px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .card-article-athlets,
+.card-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    position: relative;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-img-conteiner-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    left: 45vw;</P>
+<P STYLE="margin-bottom: 0cm">    top: 94px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .image-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 56.58vw;</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-img-conteiner-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    left: 43.55vw;</P>
+<P STYLE="margin-bottom: 0cm">    top: 64px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .image-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 89.96vw;</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-content-part-text, .article-content-part-text-growth {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 38vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-title-group-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 42px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 31px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-number,
+.article-content-part-number-growth {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 18px;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-title {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 32px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-text,
+.article-content-part-text-growth,
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 35px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 16px;</P>
+<P STYLE="margin-bottom: 0cm">}   
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 86px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 60px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group-basketballer,
+.article-content-part-text-basketballer,
+.article-content-part-text-growht-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 38vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-image,
+.section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    width: 100vw; 
+</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder-conteiner,
+.section-card-numder-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    bottom: -36px;</P>
+<P STYLE="margin-bottom: 0cm">    left: 32px; 
+</P>
+<P STYLE="margin-bottom: 0cm">    width:  115px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 115px;</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder,
+.section-card-numder-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-title,
+.section-card-title-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 80px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 27%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 38px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-text,
+.section-card-text-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 24px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 4.2vw;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 4.2vw; 
+</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">   .site-footer-container {</P>
+<P STYLE="margin-bottom: 0cm">  background-color: #0d153b;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-logo-title-container {</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">    align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .short-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    width:  130px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 138px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> .short-logo {</P>
+<P STYLE="margin-bottom: 0cm">   padding: 25px 12px;</P>
+<P STYLE="margin-bottom: 0cm">   width:  103px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-group {</P>
+<P STYLE="margin-bottom: 0cm">    display: flex;</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">    align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 323px;  
+</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">    width: 92vw;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">   .footer-title-top {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 80px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-bottom {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 36px;</P>
+<P STYLE="margin-bottom: 0cm">    color: #a496ca;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@media (min-width: 768px) and
+(max-width: 1920px), (min-width: 1921px)  {</P>
+<P STYLE="margin-bottom: 0cm">  body {</P>
+<P STYLE="margin-bottom: 0cm">    min-width: 768px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-header {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 45px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    width:  190px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 56px;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 135px;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 222px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group {   
+</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 90px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 26px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-title-bottom {  
+</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 29.46%;  
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-group {</P>
+<P STYLE="margin-bottom: 0cm">    justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">    align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 84px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download {</P>
+<P STYLE="margin-bottom: 0cm">    width: 310px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 77px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .button-download:first-child {</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: 53px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 14px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .download-icon {</P>
+<P STYLE="margin-bottom: 0cm">    width: 41px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 48px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .botton-link-text-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  .card-article-athlets,
+.card-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 1920px;</P>
+<P STYLE="margin-bottom: 0cm">    position: relative;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-athlets {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 52.5%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 10%;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-players {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 10%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 56.9%;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-athlets,
+.title-article-players  {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 80px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 116px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 109px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-img-conteiner-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    right: 51%;</P>
+<P STYLE="margin-bottom: 0cm">    top: 27px;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: 20%;</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 30%;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-img-conteiner-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    left: 42%;</P>
+<P STYLE="margin-bottom: 0cm">    top: 30px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .image-footballer, 
+.image-basketballer{</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 100%;</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-content-part-text, .article-content-part-text-growth  {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 52.2%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 3.2%;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group-basketballer, 
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 10%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 56.9%;</P>
+<P STYLE="margin-bottom: 0cm">    width: 39.3%;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-title-group,
+.article-title-group-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 60px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-bottom: 30px;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-number,
+.article-content-part-number-growth {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 18px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-title {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 36px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">  .article-content-part-text,
+.article-content-part-text-growth,
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">  font-size: 20px;</P>
+<P STYLE="margin-bottom: 0cm">  padding-bottom: 55px;</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-cards {</P>
+<P STYLE="margin-bottom: 0cm">    display: flex;</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card,
+.section-card-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    display: flex;</P>
+<P STYLE="margin-bottom: 0cm">    border: 0;</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-img-conteiner, 
+.section-card-img-conteiner-find-contact,
+.section-card-title-and-text-conteiner,
+.section-card-title-and-text-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    width: 50%;</P>
+<P STYLE="margin-bottom: 0cm">    max-width:  960px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+.section-card-title-and-text-conteiner-find-contact
+.section-card-title-and-text-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    max-height: 80%;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+.section-card-title-and-text-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    order: -1;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-image,
+.section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    height: auto;</P>
+<P STYLE="margin-bottom: 0cm">    width: 100%;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    order: 2;</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">    .section-image,
+.section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 960px; 
+</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder-conteiner,
+.section-card-numder-conteiner-find-contact  {</P>
+<P STYLE="margin-bottom: 0cm">    top: 28%;</P>
+<P STYLE="margin-bottom: 0cm">    width:  170px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 155px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+.section-card-numder-conteiner-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    left: -85px; 
+</P>
+<P STYLE="margin-bottom: 0cm"> } 
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    left: calc(100% - 85px); 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-numder,
+.section-card-numder-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-title,
+.section-card-title-find-contact  {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 5rem;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 26%;</P>
+<P STYLE="margin-bottom: 0cm">    margin-bottom: 38px; 
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-title-find-contact, 
+.section-card-text-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: 20.8%;</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: calc(85px +
+3.4375%);</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-title,
+.section-card-text  {</P>
+<P STYLE="margin-bottom: 0cm">    padding-left: calc(85px + 4.375%);</P>
+<P STYLE="margin-bottom: 0cm">    padding-right: 6.71vw;</P>
+<P STYLE="margin-bottom: 0cm"> }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-card-text,
+.section-card-text-find-contact  {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 24px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .site-footer-container {</P>
+<P STYLE="margin-bottom: 0cm">    background-color: #202044;</P>
+<P STYLE="margin-bottom: 0cm">} 
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">   .footer-logo-title-container {</P>
+<P STYLE="margin-bottom: 0cm">     height: 130px;</P>
+<P STYLE="margin-bottom: 0cm">     justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">     align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">     margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">     margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">     margin-bottom: 150px;</P>
+<P STYLE="margin-bottom: 0cm">     margin-top: 230px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">   .footer-title-group {</P>
+<P STYLE="margin-bottom: 0cm">     display: flex;</P>
+<P STYLE="margin-bottom: 0cm">     flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">     justify-content: center;</P>
+<P STYLE="margin-bottom: 0cm">     align-items: center;</P>
+<P STYLE="margin-bottom: 0cm">     padding-left: 39px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-top {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 80px;</P>
+<P STYLE="margin-bottom: 0cm">    padding-top: 10px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  .footer-title-bottom {</P>
+<P STYLE="margin-bottom: 0cm">    font-size: 30px;</P>
+<P STYLE="margin-bottom: 0cm">    color: #a496ca;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .short-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    width:  130px;</P>
+<P STYLE="margin-bottom: 0cm">    height: 138px;</P>
+<P STYLE="margin-bottom: 0cm">    
+</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  .short-logo {</P>
+<P STYLE="margin-bottom: 0cm">    padding: 25px 12px;</P>
+<P STYLE="margin-bottom: 0cm">    width:  103px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .long-logo-container {</P>
+<P STYLE="margin-bottom: 0cm">    margin-top: 260px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">@media (min-width: 1921px) {</P>
+<P STYLE="margin-bottom: 0cm">  body {</P>
+<P STYLE="margin-bottom: 0cm">    min-width: 1921px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .header-title-group-conteiner {</P>
+<P STYLE="margin-bottom: 0cm">    width: 1541px;</P>
+<P STYLE="margin-bottom: 0cm">}  
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> .article-img-conteiner-footballer {</P>
+<P STYLE="margin-bottom: 0cm">    width: 960px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .title-article-athlets,
+.title-article-players, .article-title-group,
+.article-content-part-text, .article-content-part-text-growth,
+.article-title-group-basketballer, 
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer,
+.article-content-part-text, .article-content-part-text-basketballer, 
+ .section-card-title, .section-card-title-find-contact,
+.section-card-text, .section-card-text-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">     width: 960px;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">    .title-article-players,   
+.article-title-group-basketballer, 
+.article-content-part-text-basketballer, 
+.article-content-part-text-basketballer,
+.article-content-part-text-growth-basketballer {</P>
+<P STYLE="margin-bottom: 0cm">     margin-left: calc(50vw - 960px);</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm">  .card-article-athlets {</P>
+<P STYLE="margin-bottom: 0cm">    width: 1920px;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm">  .section-cards {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 1920px;</P>
+<P STYLE="margin-bottom: 0cm">    display: flex;</P>
+<P STYLE="margin-bottom: 0cm">    flex-direction: column;</P>
+<P STYLE="margin-bottom: 0cm">    margin-left: auto;</P>
+<P STYLE="margin-bottom: 0cm">    margin-right: auto;</P>
+<P STYLE="margin-bottom: 0cm">  }</P>
+<P STYLE="margin-bottom: 0cm">  
+</P>
+<P STYLE="margin-bottom: 0cm"> 
+</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+<P STYLE="margin-bottom: 0cm">.section-image,
+.section-image-find-contact {</P>
+<P STYLE="margin-bottom: 0cm">    max-width: 960px;</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm">}</P>
+<P STYLE="margin-bottom: 0cm"><BR>
+</P>
+</BODY>
+</HTML>
